@@ -1,0 +1,14 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 ?Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><title>Textbox</title><link rel="stylesheet" href="css/book.css" type="text/css" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="EPB-UUID" content="56f9f29ab95b4531" /></head><body><div id="content"><h1 id="r_4f8d12bb691380a9" class="chapter_title"><span class="chapter_title_n">30.</span>Textbox</h1><h1 id="r_e71229ac774391fa" class="element heading1"><span class="heading1_n">30.1</span>Textbox</h1><p id="r_240bd9ce105274ef" class="element normal">텍스트를 화면에 나타내어주는 컴포넌트로서 tagname 속성에 따라 div, h1, h2, …, h6, label 태그로 렌더링 됩니다. 주로 정적인 텍스트 데이터를 나타내는데 사용되며 사용자로부터 정보를 입력을 받는 컴포넌트와 연관된 항목명을 나타내기 위해 사용될 경우에는 tagname 속성에 “label”을, for 속성에는 해당하는 컴포넌트의 id를 기술합니다. 또, html5를 사용하면 본문 언어와 다른 언어를 나타낼 경우 lang 속성을 사용합니다. 아래는 사용자로부터 주민번호를 입력 받는 예제입니다. (for 속성을 사용하는 경우 tagname=”label” 은 default 값으로 생략하여도 무방합니다.)</p><div id="r_7cb9fd3b2dc2ce01" class="element tip"><strong>&lt;Check Point&gt;</strong><br/><strong>√ </strong>tagname 속성을 사용했을 경우 “HTML 태그 사용 가이드”를 준수하였는가?<br/><strong>√ </strong>tagname=”label” 로 사용했다면 for 속성을 올바로 기술하였는가?<br/><strong>√ </strong>만약 컨텐츠의 언어가 본 언어와 다를 경우 적합한 lang 속성을 기술하였는가?</div><div id="r_f78e85bc85e2f593" class="element note">관련 지침 : 사용 방식에 따른 점검</div><div id="r_d7ff25a20029aeaa" class="element code support_code_numbering"><pre><span class="digits_10 code_line"></span><strong>mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language:
+<span class="digits_10 code_line"></span>KO;mso-bidi-language:AR-SA">&lt;Xml source&gt;</strong>
+<span class="digits_10 code_line"></span><strong>Tagname을 사용해서 a링크로 사용한 경우
+<span class="digits_10 code_line"></span>&lt;w2:textbox label="링크" style="" id="" <span class="r_blue001_span">tagname="a"</span>&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;w2:attributes&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="r_blue001_span">&lt;w2:href&gt;naver.com&lt;/w2:href&gt;</span>
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/w2:attributes&gt;
+<span class="digits_10 code_line"></span>&lt;/w2:textbox&gt;
+<span class="digits_10 code_line"></span>
+<span class="digits_10 code_line"></span>Tagname을 사용해서 label로 사용한 경우
+<span class="digits_10 code_line"></span>&lt;w2:textbox label="폼연결" style="" id="" <span class="r_blue001_span">for="input1" tagname="label"</span>&gt;&lt;/w2:textbox&gt;
+<span class="digits_10 code_line"></span>&lt;xf:input <span class="r_blue001_span">id="input1"</span> style="width: 144px;height: 21px;"&gt;&lt;/xf:input&gt;</strong><strong>
+<span class="digits_10 code_line"></span></strong></pre></div></div></body></html>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/test/style.css" type="text/css"?>
+<?xml-stylesheet href="/test/common.css" type="text/css"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head>
+    	<w2:type>DEFAULT</w2:type>
+    	<w2:buildDate />
+    	<xf:model>
+    		<xf:instance>
+    			<data xmlns="" />
+    		</xf:instance>
+    		<w2:dataCollection baseNode="map"></w2:dataCollection>
+    		<w2:workflowCollection></w2:workflowCollection>
+    	</xf:model>
+    	<script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	]]></script>
+    	<style type="text/css"><![CDATA[
+    	
+    	 ]]></style>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<w2:anchor id="" style="width:100px;height:30px;" outerDiv="false" href="http://www.daum.net" target="_blank">
+    		<xf:label><![CDATA[링크테스트 ㅁㅁㅁ]]></xf:label>
+    	</w2:anchor>
+    	<w2:anchor id="" outerDiv="false" style="width:100px;height:30px;" href="www.metanet.co.kr" target="_blank" disabled="true">
+    		<xf:label><![CDATA[링크테스트 디스에이블]]></xf:label>
+    	</w2:anchor>
+    	<xf:select appearance="full" id="" style="" selectedindex="-1" cols="2" rows="" ref="" class="atype" renderType="">
+    		<xf:choices>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    		</xf:choices>
+    	</xf:select>
+    	<xf:select appearance="full" cols="" id="" ref="" rows="5" selectedindex="-1" style="" renderType="native" class="native">
+    		<xf:choices>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    		</xf:choices>
+    	</xf:select>
+    	<xf:select appearance="full" cols="" id="" ref="" rows="5" selectedindex="-1" style="" renderType="checkboxgroup"
+    		class="chekboxgroup">
+    		<xf:choices>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value></xf:value>
+    			</xf:item>
+    		</xf:choices>
+    	</xf:select>
+    	<xf:select1 appearance="full" id="" style="" selectedIndex="4" cols="" rows="3" ref="" renderType="table">
+    		<xf:choices>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    		</xf:choices>
+    	</xf:select1>
+    	<xf:select1 appearance="full" cols="" id="" ref="" rows="3" selectedIndex="2" style="" class="btype" renderType="radiogroup">
+    		<xf:choices>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value></xf:value>
+    			</xf:item>
+    		</xf:choices>
+    	</xf:select1>
+    	<xf:input adjustMaxLength="false" id="" style="width: 144px;height: 21px;" initValue="" placeholder="네임"></xf:input>
+    	<xf:input adjustMaxLength="false" id="" style="width: 144px;height: 21px;" class="ctype"></xf:input>
+    	<xf:input adjustMaxLength="false" id="" style="width: 144px;height: 21px;" disabled="true"></xf:input>
+    	<w2:calendar id="" style="width: 100px;height: 100px;margin-left: 50px;" footerDiv="false" calendarClass=""
+    		calendarValueType="yearMonth">
+    	</w2:calendar>
+    	<w2:inputCalendar rightAlign="false" calendarValueType="yearMonthDate" renderType="component" id="" renderDiv="true"
+    		style="width: 150px;height: 23px;" focusOnDateSelect="false" footerDiv="false" calendarClass="" class="dtype">
+    	</w2:inputCalendar>
+    	<w2:calendar calendarClass="" calendarValueType="yearMonthDateHour" footerDiv="false" id=""
+    		style="width: 100px;height: 100px;margin-left: 50px;">
+    	</w2:calendar>
+    	<w2:calendar calendarClass="" calendarValueType="yearMonthDate" footerDiv="true" id=""
+    		style="width: 100px;height: 100px;margin-left: 50px;">
+    	</w2:calendar>
+    	<w2:calendar calendarClass="" calendarValueType="" footerDiv="false" id="" style="width: 100px;height: 100px;margin-left: 50px;"
+    		renderType="native">
+    	</w2:calendar>
+    	<w2:calendar calendarClass="" calendarValueType="" footerDiv="false" id="" renderType="component"
+    		style="width: 100px;height: 100px;margin-left: 50px;">
+    	</w2:calendar>
+
+
+
+    	<xf:select1 disabledClass="w2selectbox_disabled" appearance="minimal" chooseOption="true" displayMode="label" allOption="true"
+    		submenuSize="auto" direction="auto" id="" style="width: 148px;height: 21px;" disabled="false" chooseOptionLabel="" ref="">
+    		<xf:choices>
+    			<xf:item>
+    				<xf:label><![CDATA[선택]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[전체]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new rownew rownew rownew rownew rownew row]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    			<xf:item>
+    				<xf:label><![CDATA[new row]]></xf:label>
+    				<xf:value><![CDATA[]]></xf:value>
+    			</xf:item>
+    		</xf:choices>
+    	</xf:select1>
+    </body>
+</html>

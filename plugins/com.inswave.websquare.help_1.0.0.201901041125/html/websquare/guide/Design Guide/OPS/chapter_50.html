@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 ?Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><title>MultiSelect</title><link rel="stylesheet" href="css/book.css" type="text/css" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="EPB-UUID" content="d3cdfc6701eaec7c" /></head><body><div id="content"><h1 id="r_bfb8999239690c07" class="chapter_title"><span class="chapter_title_n">41.</span>MultiSelect</h1><p id="r_d947b533e325e8f7" class="element headline"><span class="r_blue001_span">수정 일자 버전 (SP2)</span></p><ul id="r_c9ecfb0090f0f56e" class="element unordered_list"><li><p>WebSquare5 Studio : 20180117_1349_x86_B</p></li><li><p>WebSquare5 Engine : 5.0_2.2982B.20180223.154326_1.5</p></li></ul><p id="r_2a93422988b65154" class="element headline">여러 항목 중에서 항목을 selectbox의 형태로 선택할 수 있는 컴포넌트입니다.</p><h1 id="r_be1678b211872a71" class="element heading1"><span class="heading1_n">41.1</span>Property</h1><table id="r_959fb4b5b839de90" class="element table"><thead><tr><th><p>Property</p></th><th><p>Description</p></th></tr></thead><tbody><tr><td><p>class</p></td><td><p>HTML의 class속성과 동일한 기능을 제공하며 css파일 또는 style블럭에 정의 한 class를 1개 또는 공백(space)를 이용하여 다중 적용이 가능하다.</p></td></tr><tr><td><p>dataListAutoRefresh<span class="r_bold01_span"><span class="r_red_highlight_span"> SP2</span></span></p></td><td><p>[default: false, true] multiselect의 선택 대상 목록이 DataList와 바인딩된 경우, addItem 혹은 deleteItem 함수 실행에 따른 DataList 자동 갱신 여부. true: 자동 갱신. false: 기본 값. 자동 갱신 안 함. 하위 호환을 위한 설정으로 true를 권장. (config.xml 파일에 설정하여 일괄 적용.)</p></td></tr><tr><td><p>defaultClass</p></td><td><p>멀티셀렉트에 대한 기본 클래스 입니다.</p></td></tr><tr><td><p>disabled</p></td><td><p>[default:false, true] HTML의 disabled속성과 동일한 기능을 제공하며 컴포넌트를 비활성화 시킨다.</p></td></tr><tr><td><p>escape</p></td><td><p>&lt;&gt;&amp;"와 같은 특수문자를 HTML Escape 문자로 변환하여 화면에 표시한다.</p></td></tr><tr><td><p>id</p></td><td><p>컴포넌트의 ID로 전역객체로 할당되며 script에서 본 id로 컴포넌트에 접근이 가능하다.</p></td></tr><tr><td><p>nextTabID<span class="r_bold01_span"><span class="r_red_highlight_span"> SP2</span></span></p></td><td><p>tab으로 이동시 이동할 컴포넌트 ID</p></td></tr><tr><td><p>separator</p></td><td><p>선택된 항목이 여러 개일 때 구분할 구분자</p></td></tr><tr><td><p>style</p></td><td><p>InputBox의 style 속성</p></td></tr><tr><td><p>tabIndex</p></td><td><p>Tab Key를 이용 한 컴포넌트의 포커스 순서로 HTML의 tabindex속성과 동일한 기능을 제공한다.</p></td></tr><tr><td><p>useLocale</p></td><td><p>MultiSelect에대한 다국어사용 여부를 지원합니다.</p></td></tr></tbody></table><h1 id="r_4b9db9c347f7d8a7" class="element heading1"><span class="heading1_n">41.2</span>브라우저 캡쳐화면</h1><div id="r_dbcf65412403c23c" class="element image"><p class="content"><img alt="" src="images/image314.png" width="177" height="131" /></p><p class="caption omit"><span class="image_caption_n">[그림 41-1]</span>01</p></div><h1 id="r_e970efe6e70cad01" class="element heading1"><span class="heading1_n">41.3</span>class 적용과 스타일 변경</h1><div id="r_90a409611318b00d" class="element image"><p class="content"><img alt="" src="images/image315.png" width="118" height="129" /></p><p class="caption"><span class="image_caption_n">[그림 41-2]</span>Class 를 sel_multi 라고 지정했을 경우</p></div><div id="r_f2ee57b1bc484b6e" class="element image"><p class="content"><img alt="" src="images/image316.png" width="630" height="225" /></p><p class="caption omit"><span class="image_caption_n">[그림 41-3]</span>01</p></div><div id="r_35d0140d5952019d" class="element code support_code_numbering"><pre><span class="digits_10 code_line"></span>.sel_multi {
+<span class="digits_10 code_line"></span>     height: 150px;
+<span class="digits_10 code_line"></span>}
+<span class="digits_10 code_line"></span>
+<span class="digits_10 code_line"></span>.w2multiselect_div {
+<span class="digits_10 code_line"></span>     overflow-x: hidden;
+<span class="digits_10 code_line"></span>     overflow-y: auto;     
+<span class="digits_10 code_line"></span>     display: inline-block;
+<span class="digits_10 code_line"></span>     vertical-align: middle;
+<span class="digits_10 code_line"></span>}
+<span class="digits_10 code_line"></span>
+<span class="digits_10 code_line"></span>.w2multiselect_table {
+<span class="digits_10 code_line"></span>     width: 100%;
+<span class="digits_10 code_line"></span>     border-collapse: collapse;
+<span class="digits_10 code_line"></span>     table-layout: fixed;
+<span class="digits_10 code_line"></span>     border-spacing: 0;
+<span class="digits_10 code_line"></span>     background-color: #fff;
+<span class="digits_10 code_line"></span>     border: 1px solid #b5c5d2;
+<span class="digits_10 code_line"></span>}
+<span class="digits_10 code_line"></span>
+<span class="digits_10 code_line"></span>.w2multiselect_tr {
+<span class="digits_10 code_line"></span>     cursor: default;
+<span class="digits_10 code_line"></span>}
+<span class="digits_10 code_line"></span>
+<span class="digits_10 code_line"></span>.w2multiselect_tr_over {
+<span class="digits_10 code_line"></span>     background-color: #ffe492;
+<span class="digits_10 code_line"></span>}
+<span class="digits_10 code_line"></span>
+<span class="digits_10 code_line"></span>.w2multiselect_td {
+<span class="digits_10 code_line"></span>     height: 20px;
+<span class="digits_10 code_line"></span>     font-size: 12px;
+<span class="digits_10 code_line"></span>     text-align: center;
+<span class="digits_10 code_line"></span>     vertical-align: middle;
+<span class="digits_10 code_line"></span>     padding: 0;
+<span class="digits_10 code_line"></span>     border: 1px solid #b3b3b3;
+<span class="digits_10 code_line"></span>}</pre></div><h1 id="r_d3aa38b957eb14d4" class="element heading1"><span class="heading1_n">41.4</span>CSS Overriding</h1><div id="r_83b81f5309c3377a" class="element image"><p class="content"><img alt="" src="images/image317.png" width="615" height="317" /></p><p class="caption omit"><span class="image_caption_n">[그림 41-4]</span>02</p></div><table id="r_8d5b86c66d6201e5" class="element table"><thead><tr><th><p>No</p></th><th><p>Class</p></th><th><p>Description</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>w2multiselect_div</p></td><td><p>w2multiselect_div 은 웹스퀘어 엔진에서 정의된 클래스입니다, 브라우저가 파싱할때 자동으로 부여됩니다.</p></td></tr><tr><td colspan="1"><p>2</p></td><td colspan="1"><p>w2multiselect_table</p></td><td colspan="1"><p>MultiSelect 컴포넌트의 기본 레이아웃 구조인 테이블 레이아웃의 최상위 클래스 입니다.본 컴포넌트의 클래스는 웹스퀘어에서 자동으로 정의되는 클래스 입니다.</p></td></tr><tr><td colspan="1"><p>3</p></td><td colspan="1"><p>w2multiselect_tr</p></td><td colspan="1"><p>MultiSelect컴포넌트 테이블레이아웃 구조에서 테이블의 TR에 자동으로 부여되는 클래스 입니다.</p></td></tr><tr><td colspan="1"><p>4</p></td><td colspan="1"><p>w2multiselect_td</p></td><td colspan="1"><p>MultiSelect컴포넌트 테이블레이아웃 구조에서 테이블의 TD에 자동으로 부여되는 클래스 입니다.</p></td></tr><tr><td colspan="1"><p>5</p></td><td colspan="1"><ul><li><p>inline</p></li></ul></td><td colspan="1"><p>websquare의 style 편집기에서 해당 style을 직접 수정합니다.</p></td></tr></tbody></table><h1 id="r_b29172289d7b60ec" class="element heading1"><span class="heading1_n">41.5</span>주의사항 및 Tip</h1><ul id="r_aafc1d45d461d135" class="element unordered_list"><li><p>MultiSelect 컴포넌트를 제작했을때의 기본 레이아웃 구조는 테이블 레이아웃 으로 MultiSelect가 구성이 됩니다.</p></li></ul></div></body></html>

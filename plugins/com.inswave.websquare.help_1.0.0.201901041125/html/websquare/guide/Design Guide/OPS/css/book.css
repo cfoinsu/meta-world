@@ -1,0 +1,261 @@
+#content h1, #content h2, #content h3, #content h4, #content h5, #content strong, #content em {font-style: inherit;font-weight: inherit;} #content  {font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 13px; color: rgb(51, 51, 51); text-align: left; line-height: 1.5em;} #content div.code pre, #content pre.command, #content code, #content kbd {font-family: 'Consolas', 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;} #content h1.heading1 {font-size: 2em; color: rgb(0, 0, 0); font-weight: bold; letter-spacing: 0; word-spacing: 0; text-align: left; margin-top: 5px; margin-bottom: 5px; line-height: 1.5em; text-indent: 0; margin-left: 0; margin-right: 0; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; background-position: 0 0;} #content h2 {font-size: 1.8em; color: rgb(0, 0, 0); font-weight: bold; letter-spacing: 0; word-spacing: 0; text-align: left; margin-top: 5px; margin-bottom: 5px; line-height: 1.7em; text-indent: 0; margin-left: 0px; margin-right: 0; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; background-position: 0 0;} #content h3 {font-size: 1.5em; color: rgb(51, 51, 51); font-weight: bold; letter-spacing: 0; word-spacing: 0; text-align: left; margin-top: 1em; margin-bottom: 1em; line-height: 1.5em; text-indent: 0; margin-left: 0; margin-right: 0; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; background-position: 0 0;} #content h4 {font-size: 1.3em; color: rgb(51, 51, 51); font-weight: bold; letter-spacing: 0; word-spacing: 0; text-align: left; margin-top: 1.5em; margin-bottom: 1em; line-height: 1.7em; text-indent: 0; margin-left: 0; margin-right: 0; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; background-position: 0 0;} #content h5 {font-size: 1.2em; color: rgb(51, 51, 51); font-weight: bold; letter-spacing: 0; word-spacing: 0; text-align: left; margin-top: 1em; margin-bottom: 1em; line-height: 1.5em; text-indent: 0; margin-left: 0; margin-right: 0; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; background-position: 0 0;} #content span.heading1_n {font-size: 1em;font-weight: bold;color: rgb(51, 51, 51);padding-right: 10px;} #content span.heading2_n {font-size: 1em;font-weight: bold;color: rgb(0, 0, 0);padding-right: 10px;} #content span.heading3_n {font-size: 1em;font-weight: bold;color: rgb(51, 51, 51);padding-right: 5px;} #content span.heading4_n {font-size: 1em;font-weight: bold;color: rgb(51, 51, 51);padding-right: 5px;} #content span.heading5_n {font-size: 1em;font-weight: bold;color: rgb(51, 51, 51);padding-right: 5px;} #content h1 + .normal, #content h1 + .to_left + .normal, #content h1 + .to_right + .normal, #content h2 + .normal, #content h2 + .to_left + .normal, #content h2 + .to_right + .normal, #content h3 + .normal, #content h3 + .to_left + .normal, #content h3 + .to_right + .normal, #content h4 + .normal, #content h4 + .to_left + .normal, #content h4 + .to_right + .normal, #content h5 + .normal, #content h5 + .to_left + .normal, #content h5 + .to_right + .normal, #content .to_left:first-child + .normal, #content .to_right:first-child + .normal, #content .normal:first-child {text-indent: 0;} #content p.normal {font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); font-style: normal; letter-spacing: 0px; word-spacing: 1px; margin-top: 1em; margin-bottom: 1em; line-height: 2em; text-indent: 0; margin-left: 0; margin-right: 0; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; background-position: 0 0;} #content p.headline {font-size: 1.1em; font-weight: bold; margin-top: 2em; margin-bottom: 1em;} #content div.code pre {background-color: rgb(242, 242, 242); border-top-color: rgb(216, 223, 234); border-top-style: solid; border-top-width: 2px; border-bottom-color: rgb(216, 223, 234); border-bottom-style: solid; border-bottom-width: 2px; margin-top: 2em; margin-bottom: 2em; padding-top: 0.5em; padding-right: 0.5em; padding-bottom: 0.5em; padding-left: 0.5em; text-align: left;} #content div.code .caption {margin-top: 2em; margin-bottom: 0.5em; text-align: left;} #content span.code_caption_n {font-weight: bold;color: rgb(0, 0, 255);padding-right: 1em;} #content div.code p.caption + pre {margin-top: 0;} #content pre.command {border-left-color: rgb(255, 204, 0); border-left-style: solid; border-left-width: 3px; margin-top: 2em; margin-bottom: 2em; padding-left: 1em; text-align: left;} #content pre {font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); letter-spacing: 0; word-spacing: 0; text-align: left; margin-top: 5px; margin-bottom: 5px; line-height: 1.5em; text-indent: 0; margin-left: 0; margin-right: 0; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; background-position: 0 0;} #content blockquote.blockquote {background-image: url(../images/image495.png); background-repeat: no-repeat; font-style: normal; margin-top: 2em; margin-bottom: 2em; padding-left: 2em; font-family: 바탕, serif;} #content blockquote.epigraph {font-style: normal; margin-top: 2em; margin-bottom: 2em; text-align: right; font-family: 바탕, serif;} #content ol.ordered_list {margin-top: 0.7em; margin-bottom: 0.7em;} #content ol li {list-style-type: decimal; margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 2em; font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); line-height: 1.5em;} #content ol li li {list-style-type: upper-alpha; margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 1.7em; font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); line-height: 1.5em;} #content ol li li li {list-style-type: upper-roman; margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 1.7em; font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); line-height: 1.5em;} #content ul.unordered_list {margin-top: 0.7em; margin-bottom: 0.7em;} #content ul li {font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); letter-spacing: 0; word-spacing: 0; margin-top: 0; margin-bottom: 0; line-height: 1.7em; text-indent: 0; margin-left: 2em; margin-right: 0; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; list-style-type: disc; background-position: 0 0;} #content ul li li {list-style-type: circle; margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 1.6em; font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); line-height: 1.5em;} #content ul li li li {list-style-type: square; margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 1.6em; font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); line-height: 1.5em;} #content ul li ol li {list-style-type: upper-alpha; margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 1.7em; font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); line-height: 1.5em;} #content ul li ol li ol li {list-style-type: upper-roman; margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 1.7em; font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); line-height: 1.5em;} #content ul li ul li ol li {list-style-type: upper-roman; margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 1.7em; font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); line-height: 1.5em;} #content ol li ul li ol li {list-style-type: upper-roman; margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 1.7em; font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); line-height: 1.5em;} #content ol li ul li {list-style-type: circle; margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 1.6em; font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); line-height: 1.5em;} #content ol li ul li ul li {list-style-type: square; margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 1.6em; font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); line-height: 1.5em;} #content ol li ol li ul li {list-style-type: square; margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 1.6em; font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); line-height: 1.5em;} #content ul li ol li ul li {list-style-type: square; margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 1.6em; font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); line-height: 1.5em;} #content dl.definition_list {margin-top: 1em; margin-bottom: 1em;} #content dl.definition_list dt {font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); font-weight: bold; letter-spacing: 0; word-spacing: 0; margin-top: 0; margin-bottom: 0; line-height: 1.5em; text-indent: 0; margin-left: 0; margin-right: 0; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; background-position: 0 0;} #content dl.definition_list dd p {font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); letter-spacing: 0; word-spacing: 0; margin-top: 1em; margin-bottom: 1em; line-height: 1.5em; text-indent: 0; margin-left: 1em; margin-right: 0; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; background-position: 0 0;} #content div.callout_list {margin-top: 0em; margin-bottom: 0em;} #content div.callout_list p {margin-top: 1em; margin-bottom: 1em; margin-left: 26px; font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); line-height: 1.5em;} #content div.callout_list p {position: relative;} #content div.callout_list p span.callout.bullet {left: -26px; position: absolute; top: 2px;} #content div.step1 {margin-top: 2.5em; margin-bottom: 1em;} #content div.note {background-color: rgb(242, 242, 242); background-image: url(../images/image499.png); background-position: 3px 10px; background-repeat: no-repeat; border-top-color: rgb(216, 223, 234); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(216, 223, 234); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(216, 223, 234); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(216, 223, 234); border-left-style: solid; border-left-width: 3px; margin-top: 2em; margin-bottom: 2em; padding-top: 1em; padding-right: 1em; padding-bottom: 1em; padding-left: 3em;} #content div.tip {font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(51, 51, 51); letter-spacing: 0; word-spacing: 0; margin-top: 1em; margin-bottom: 1em; line-height: 1.7em; text-indent: 0; margin-left: 0; margin-right: 0; border-top-color: rgb(216, 223, 234); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(216, 223, 234); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(216, 223, 234); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(216, 223, 234); border-left-style: solid; border-left-width: 3px; padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 3.5em; padding-right: 0.5em; background-color: rgb(242, 242, 242); background-image: url(../images/image500.png); background-repeat: no-repeat; background-position: 6px 6px;} #content div.caution {font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1em; color: rgb(204, 0, 0); letter-spacing: 0; word-spacing: 0; margin-top: 1em; margin-bottom: 1em; line-height: 1.7em; text-indent: 0; margin-left: 0; margin-right: 0; border-top-color: rgb(216, 223, 234); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(216, 223, 234); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(216, 223, 234); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(216, 223, 234); border-left-style: solid; border-left-width: 3px; padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 3.5em; padding-right: 0.5em; background-color: rgb(242, 242, 242); background-image: url(../images/image498.png); background-repeat: no-repeat; background-position: 6px 6px;} #content div.image {text-align: left; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0;} #content div.image .caption {font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 0.7em; color: rgb(153, 153, 153); letter-spacing: 0; word-spacing: 0; text-align: left; margin-top: 0.5em; margin-bottom: 0.5em; line-height: 1em; text-indent: 0; margin-left: 0; margin-right: 0; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; background-position: 0 0;} #content span.image_caption_n {font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif;font-size: 1em;font-weight: bold;color: rgb(153, 153, 153);padding-right: 5px;} #content .element img {vertical-align: middle;} #content table.table {caption-side: top; margin-top: 2em; margin-bottom: 2em;} #content table.table thead, table.table tfoot {font-weight: bold; letter-spacing: 0; word-spacing: 0; margin-top: 0; margin-bottom: 0; text-indent: 0; margin-left: 0; margin-right: 0; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; background-position: 0 0;} #content table.table thead tr, table.table tfoot tr {font-weight: bold; letter-spacing: 0; word-spacing: 0; margin-top: 0; margin-bottom: 0; text-indent: 0; margin-left: 0; margin-right: 0; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; background-position: 0 0;} #content table.table th {background-color: rgb(229, 229, 229); border-top-color: rgb(187, 187, 187); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(187, 187, 187); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(187, 187, 187); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(187, 187, 187); border-left-style: solid; border-left-width: 1px; font-size: 0.9em; font-style: normal; padding-top: 5px; padding-right: 3px; padding-bottom: 5px; padding-left: 3px; text-align: left;} #content table.table tbody td {border-top-color: rgb(187, 187, 187); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(187, 187, 187); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(187, 187, 187); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(187, 187, 187); border-left-style: solid; border-left-width: 1px; font-size: 0.9em; padding-top: 3px; padding-right: 3px; padding-bottom: 3px; padding-left: 3px;} #content table caption {letter-spacing: 0; word-spacing: 0; text-align: left; margin-top: 0; margin-bottom: 0.5em; text-indent: 0; margin-left: 0; margin-right: 0; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; background-position: 0 0;} #content span.table_caption_n {font-weight: bold;color: rgb(0, 0, 255);padding-right: 1em;} #content hr.footnote {margin-top: 3em; margin-bottom: 1em; width: 60%; margin-right: 40%; border-top: 1px solid rgb(0, 0, 0);} #content ol li.footnote_item {font-size: 0.9em; margin-top: 0.5em;} #content hr.horizontal_line {margin-top: 5em; margin-bottom: 5em; width: 100%; margin-left: 0%; margin-right: 0%; border-top: 1px solid rgb(89, 89, 89);} #content p.space {height: 5em;} #content div.image.to_left {float: left; margin: 0 30px 0 0;} #content div.image.to_right {float: right; margin: 0 0 0 20px;} #content .to_left, #content .to_right, #content p.space, #content hr.horizontal_line, #content hr.footnote {clear: both;} #content .clear_float {clear: both;} #content .element strong {font-weight: bold;} #content .element em {font-style: italic;} #content .element small {color: rgb(153, 153, 255); font-size: 0.9em;} #content .element del {text-decoration: line-through;} #content .element a {color: rgb(255, 102, 0);} #content .element span.callout {background-image: url(../images/image496.png); background-position: 0px 0px; background-repeat: no-repeat; color: rgb(255, 255, 255); display: inline-block; font-family: Consolas, 'Courier New', monospace; font-size: 11px; height: 20px; line-height: 20px; margin-top: -2px; text-align: center; width: 20px;} #content div.step1 p {margin-left: 46px;} #content .step1_indent {margin-left: 45px !important;} #content .element p.step1_n {background-image: url(../images/image497.png); background-position: 0px 1px; background-repeat: no-repeat; color: rgb(242, 242, 242); float: left; font-family: Consolas, 'Courier New', monospace; font-size: 17px; font-weight: bold; height: 36px; line-height: 36px; margin-top: -6px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; text-align: center; width: 36px;} #content .element ins {display: none;} #content .r_bold01_p {font-family: '맑은 고딕', 'Malgun Gothic', 굴림, Gulim, sans-serif; font-size: 1.2em; color: rgb(51, 51, 51); font-weight: bold; letter-spacing: 0; word-spacing: 0; margin-top: 1em; margin-bottom: 1em; line-height: 1.5em; text-indent: 0; margin-left: 0; margin-right: 0; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; background-position: 0 0;} #content span.r_bold01_span {font-size: 1em; font-weight: bold;} #content span.r_blue_span {color: rgb(51, 51, 255);} #content span.r_systemfont_span {font-family: 'Lucida Grande', Arial, Verdana, sans-serif;} #content span.r_red_highlight_span {color: rgb(255, 0, 0);} #content span.r_italic_span {font-style: italic;}#content .heading2{padding-left:0.5em;}#content .heading5{padding-left:10px;}#content p.r_normal_02_p, #content p.r_bold01_p{padding-left:10px;}#content p.normal{padding-left:10px;}#content pre.pre{padding-left:10px;}#content div.callout_list{padding-left:10px;}#content P.r_example01_p{padding-left:1.5em;}#content div.caution{margin-left:1em;}#content div.tip{margin-left:1em;}#content div.image{padding-left:1em;}#content .r_bold01_span{font-size:20px;color:red;}body {
+  counter-reset: ordered 0;
+}
+
+div, p, dl, dt, dd, ol, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+#cover_image img {
+  max-width: 100%;
+}
+
+#cover_title h1 {
+  border-bottom: 1px solid rgb(237, 237, 237);
+}
+
+.element {
+  word-wrap: break-word;
+}
+
+.omit {
+  display: none;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+.to_left {
+  text-align: left !important;
+}
+
+.to_right {
+  text-align: right !important;
+}
+
+.to_center {
+  text-align: center !important;
+}
+
+table .to_bottom {
+  vertical-align: bottom !important;
+}
+
+table .to_middle {
+  vertical-align: middle !important;
+}
+
+#brief_toc ul li {
+  list-style-type: none;
+  margin: 15px 0;
+  margin-left: 0;
+}
+
+#content h1.chapter_title {
+  margin-bottom: 1.5em;
+}
+
+span.part_title_n, span.chapter_title_n, span.appendix_title_n {
+  margin-right: 1em;
+}
+
+#content ol.ordered_list > li {
+  counter-increment: ordered;
+  list-style: none !important;
+}
+
+#content ol.ordered_list > li > p:before {
+  content: counter(ordered) ". ";
+  display: inline-block;
+  margin-left: -20px;
+  padding-right: 10px;
+}
+
+#content ol.ordered_list.renumbered {
+  counter-reset: ordered 0;
+}
+
+sup.footnote {
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+.footnotes a.to_content {
+  margin-left: 10px;
+  text-decoration: none !important;
+}
+
+#content table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+#content th, #content td {
+  vertical-align: top;
+}
+
+#content pre {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+#content kbd {
+  background-color: rgb(247, 247, 247);
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 3px;
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px rgb(255, 255, 255) inset;
+  color: rgb(51, 51, 51);
+  font-size: 12px;
+  font-weight: normal;
+  margin: 0 0.1em;
+  padding: 0.1em 0.6em;
+  text-shadow: 0 1px 0 rgb(255, 255, 255);
+  vertical-align: 2px;
+  white-space: nowrap;
+}
+
+#content span.mark {
+  display: none;
+}
+
+#content #index_group li {
+  display: inline;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0 15px 0 0;
+}
+
+#content #index_entries {
+  padding-top: 30px;
+}
+
+#content #index_entries .index_group {
+  clear: both;
+  padding-top: 50px;
+}
+
+#content #index_entries h1 {
+  border-top: 1px solid rgb(207, 207, 207);
+  border-bottom: none;
+  color: rgb(0, 102, 204);
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+  padding-top: 5px;
+}
+
+#content #index_entries ul {
+  float: left;
+  margin: 0 20px 5px 0;
+  padding: 0;
+  width: 200px;
+}
+
+#content #index_entries ul ul {
+  float: none;
+  margin: 0;
+  width: 100%;
+}
+
+#content #index_entries li {
+  line-height: 1.5;
+  list-style: none;
+  margin: 0;
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
+#content #index_entries li li {
+  padding-left: 1em;
+}
+
+#content #index_entries ul li:first-letter {
+  text-decoration: underline;
+}
+
+#content #index_entries ul ul li:first-letter {
+  text-decoration: none;
+}
+
+#content #index_entries ul span a {
+  margin-left: 5px;
+  padding: 0 5px;
+  text-decoration: none;
+}
+
+#content #index_entries ul span a:hover {
+  background: rgb(244, 246, 248);
+  outline: 1px solid rgb(207, 207, 207);
+}
+
+.code {
+  counter-reset: code_line_number;
+}
+
+.code.support_code_numbering {
+  overflow-x: auto;
+  white-space: pre !important;
+  word-wrap: normal !important; 
+}
+
+.code .code_line:after {
+  color: rgb(160, 160, 160);
+  content: counter(code_line_number);
+  counter-increment: code_line_number;
+  display: inline-block;
+  padding-right: 0.9em;
+  text-align: right;
+  width: 1em;
+}
+
+.code .digits_10:after {
+   width: 1.6em;
+}
+
+.code .digits_100:after {
+   width: 2.2em;
+}
+
+.code .digits_100:after {
+   width: 2.8em;
+}
+
+.code .keyword {
+  color: rgb(127, 0, 85);
+  font-weight: bold;
+}
+
+.code .string,
+.code .css_value,
+.code .attribute_value {
+  color: rgb(42, 0, 255);
+}
+
+.code .attribute_name {
+  color: rgb(127, 0, 127);
+}
+
+.code .attribute_value {
+  font-style: italic;
+}
+
+.code .comment {
+  color: rgb(63, 127, 95);
+}
+
+.code .selector {
+  color: rgb(127, 0, 85);
+  font-style: italic;
+}
+
+.code .tag_selector {
+  color: rgb(127, 0, 85);
+  font-weight: bold;
+}
+
+.code .dynamic_script {
+  color: rgb(191, 95, 63);
+}

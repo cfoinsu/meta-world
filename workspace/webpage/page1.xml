@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head>
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<header id="" style="width: 100%;height: 100px;">
+
+    		<w2:textbox label="제목" id="" style="width: 150px;height: 23px;" tagname="h1"></w2:textbox>
+    	</header>
+    	<section id="" style="width: 100%;height: 100%;">
+    		<nav id="" style="width: 300px;height: 50px;float : right;">
+    			<w2:textbox label="네비게이션" id="" style="width: 150px;height: 23px;"></w2:textbox>
+    		</nav>
+    		<aside id="" style="width: 200px;height: 100%;float : left;">
+    		<xf:group id="" style="height:58px;" tagname="ul"><w2:textbox id="" style="width: 150px;height: 23px;" label="리스트1" tagname="li"></w2:textbox><w2:textbox id="" style="width: 150px;height: 23px;" label="리스트2" tagname="li"></w2:textbox></xf:group></aside>
+    	</section>
+    	<footer id="" style="width: 100%;height: 150px;">
+    		<w2:textbox label="주소" id="" style="width: 150px;height: 23px;"></w2:textbox>
+    	</footer>
+    </body>
+</html>

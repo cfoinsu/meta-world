@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 ?Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><title>websquare.html</title><link rel="stylesheet" href="css/book.css" type="text/css" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="EPB-UUID" content="56f9f29ab95b4531" /></head><body><div id="content"><h1 id="r_316f68ed9df8f0fd" class="chapter_title"><span class="chapter_title_n">5.</span>websquare.html</h1><p id="r_87d79367c0b9d9bd" class="element normal">websqure.html은 웹스퀘어 엔진을 로드하고 구동하는 역할을 수행하는 HTML 파일입니다. 사용되는 주 언어를 기술하는 lang 속성값과 &lt;noscript&gt; 태그 사이의 문구를 적절히 수정하여 &lt;예 27&gt;과 같이 websquare.html을 구성합니다.(popup.html, websquare_sap.html 도 동일하게 수정)</p><div id="r_8239cbef16fcf9d0" class="element code support_code_numbering"><pre><span class="digits_10 code_line"></span>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+<span class="digits_10 code_line"></span>&lt;html lang="ko"&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;&nbsp;&nbsp;&nbsp;&nbsp;WebSquare &lt;/title&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;script type="text/javascript" src="javascript.wq?q=/bootloader"&gt;&lt;/script&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;script type="text/javascript"&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;window.onload = init;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function init() {
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try{
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebSquare.startApplication();
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} catch(e) {
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alert(e.message);
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/script&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="r_blue001_span">&lt;noscript&gt; 본 컨텐츠는 자바스크립트를 지원하는 환경에서만 제공됩니다!&lt;/noscript&gt;</span>
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;
+<span class="digits_10 code_line"></span>&lt;body&gt;&lt;/body&gt;
+<span class="digits_10 code_line"></span>&lt;/html&gt;</pre></div></div></body></html>

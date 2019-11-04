@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 ?Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><title>TableLayout</title><link rel="stylesheet" href="css/book.css" type="text/css" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="EPB-UUID" content="56f9f29ab95b4531" /></head><body><div id="content"><h1 id="r_99acc0051aca0637" class="chapter_title"><span class="chapter_title_n">27.</span>TableLayout</h1><h1 id="r_694f7f482eb7a1e7" class="element heading1"><span class="heading1_n">27.1</span>TableLayout</h1><p id="r_d530c5f297065689" class="element normal">TableLayout 컴포넌트를 디자인뷰에 그리면 생성창이 나오는데 거기서 Use Thead/Tbody/Tfoot를 선택하고 Thead의 추가하고 싶은 행수, Tbody의 추가하고 싶은 행수를 적어주면 된다.</p><p id="r_2ec85c2422f5876b" class="element normal">그리고 헤더를 원하는 형태로 선택한다. 참고로 파란색으로 된부분은 th로 보여준다. 생성방식은 Websquare Group방식과 HTML방식 두가지가 있는데 WebSquare Group모드(default 모드)로 생성하면 Group컴포넌트의 API를 사용할 수 있다. HTML로 생성하는 경우는 Table내의 내용이 변경없이 정보만 전달할 목적으로 사용한다. Source창에서 html형식으로 작성한다. 그리고 제목(caption), 요약(summary)를 적어준다.</p><div id="r_682931c1d83a8b31" class="element caution"><strong>table생성뒤 th가 생성된 부분에 scope속성을 넣어줘야 합니다.</strong><br/><strong>thead의 th는 scope="col", tbody의 th는 scope="row"를 적용합니다.</strong><br/><strong>HTML5에서 summary는 지원을 하지 않습니다.</strong></div><p id="r_1205de4f46ba27a3" class="element normal">그래서 html5로 마크업을 하고 validator를 체크하면 오류로 분류됩니다. html5에서 summary 속성을 사용하지 않기를 권하는 이유는 현실적으로 그 내용을 이해하는 사람이 거의 없기 때문입니다.</p><p id="r_4d5843b183b14dbb" class="element normal">웹접근성 마크를 준비중이면 summary 넣어주셔야 할 듯 합니다.</p><div id="r_90027c7052d95c89" class="element tip"><strong>&lt;Check Point&gt;</strong><br/><strong>√ </strong>tableLayout 생성시 제목(caption), 요약(summary)은 적절히 서술했는가?<br/><strong>√ </strong>thead를 사용해서 th를 생성시켰으면 html attributes에서 scope="col"은 적용했는가?<br/><strong>√ </strong>thead를 사용해서 th를 생성시켰으면 html attributes에서 scope="row"은 적용했는가?</div><p id="r_16ae5317c00bcdb5" class="element headline">&lt;XML Source&gt;</p><div id="r_d3b247a60e08aa0f" class="element code support_code_numbering"><pre><span class="digits_10 code_line"></span>&lt;xf:group tagname="table" style="width:100%;" id="" class="w2tb"&gt;
+<span class="digits_10 code_line"></span>&lt;w2:attributes&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;w2:summary&gt;&lt;![CDATA[table 설명을 적어주세요]]&gt;&lt;/w2:summary&gt;
+<span class="digits_10 code_line"></span>&lt;/w2:attributes&gt;
+<span class="digits_10 code_line"></span>&lt;xf:group tagname="caption"&gt;table의 제목&lt;/xf:group&gt;
+<span class="digits_10 code_line"></span>&lt;xf:group tagname="colgroup"&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;xf:group tagname="col" style="width:25.00%;"&gt;&lt;/xf:group&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;xf:group tagname="col" style="width:25.00%;"&gt;&lt;/xf:group&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;xf:group tagname="col" style="width:25.00%;"&gt;&lt;/xf:group&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;xf:group tagname="col" style="width:25.00%;"&gt;&lt;/xf:group&gt;
+<span class="digits_10 code_line"></span>&lt;/xf:group&gt;
+<span class="digits_10 code_line"></span>&lt;xf:group tagname="thead"&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;xf:group tagname="tr" style=""&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xf:group tagname="th" style="" class="w2tb_th"&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;w2:attributes&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="r_blue001_span">&lt;w2:scope&gt;col&lt;/w2:scope&gt;</span>
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/w2:attributes&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;제목1
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/xf:group&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xf:group tagname="th" style="" class="w2tb_th"&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;w2:attributes&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="r_blue001_span">&lt;w2:scope&gt;col&lt;/w2:scope&gt;</span>
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/w2:attributes&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;제목2
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/xf:group&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xf:group tagname="th" style="" class="w2tb_th"&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;w2:attributes&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="r_blue001_span">&lt;w2:scope&gt;col&lt;/w2:scope&gt;</span>
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/w2:attributes&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;제목3
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/xf:group&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xf:group tagname="th" style="" class="w2tb_th"&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;w2:attributes&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="r_blue001_span">&lt;w2:scope&gt;col&lt;/w2:scope&gt;</span>
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/w2:attributes&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;제목4
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/xf:group&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/xf:group&gt;
+<span class="digits_10 code_line"></span>&lt;/xf:group&gt;
+<span class="digits_10 code_line"></span>&lt;xf:group tagname="tbody"&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;xf:group tagname="tr" style=""&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xf:group tagname="td" style="" class="w2tb_td"&gt;내용1&lt;/xf:group&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xf:group tagname="td" style="" class="w2tb_td"&gt;내용2&lt;/xf:group&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xf:group tagname="td" style="" class="w2tb_td"&gt;내용3&lt;/xf:group&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xf:group tagname="td" style="" class="w2tb_td"&gt;내용4&lt;/xf:group&gt;
+<span class="digits_10 code_line"></span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/xf:group&gt;
+<span class="digits_10 code_line"></span>&lt;/xf:group&gt;
+<span class="digits_10 code_line"></span>&lt;/xf:group&gt;</pre></div><h1 id="r_cdf48523cff62fe2" class="element heading1"><span class="heading1_n">27.2</span>TD Headers생성 하기</h1><p id="r_e5626a7318022eb6" class="element normal">복잡한 header로 구성된 table의 경우 headers를 적용해야 하는 경우가 있습니다. 이 때 제목열과 내용열을 묶어서 화면낭독기(센스리더) 에서 순차적 으로 낭독 할 수 있게 가이드 하는 기능 입니다.</p><h2 id="r_96fed6ac67a55775" class="element heading2"><span class="heading2_n">27.2.1</span>TD headers 적용 예시</h2><p id="r_4ceeed8e9b266312" class="element normal">th에 id채번 후 table 마우스 우클릭 "TD Headers생성" 선택!!</p><div id="r_7f77b1bb1ef700f2" class="element caution">※ id채번은 th에만 적용! td는 자동 바인딩<br/>※ id변경 시 반복</div><ul id="r_6968169d5a4a4b32" class="element unordered_list"><li><p>Table선택 후 마우스 우클릭</p></li></ul><div id="r_cea5ba23d9edbd17" class="element image"><p class="content"><img alt="" src="images/image002.png" width="521" height="625" /></p><p class="caption"><span class="image_caption_n">[그림 27-1]</span>headers02</p></div><ul id="r_0c908bf022a016ed" class="element unordered_list"><li><p>적용시 th참조 예시(제목A2 -&gt; 제목B1 -&gt; 내용1)</p></li></ul><div id="r_330c6c9c334033a1" class="element image"><p class="content"><img alt="" src="images/image003.png" width="829" height="203" /></p><p class="caption"><span class="image_caption_n">[그림 27-2]</span>headers01</p></div><div id="r_5192fe4c42039459" class="element image"><p class="content"><img alt="" src="images/image004.png" width="848" height="515" /></p><p class="caption"><span class="image_caption_n">[그림 27-3]</span>headers_result</p></div></div></body></html>

@@ -1,0 +1,22 @@
+<WebSquarePaletteConfiguration>
+    <mypalette>
+        <components ID="anchor" Visibility="visible" descriptorKey="w2:anchor" name="Anchor" prefix="w2" realtype="anchor"/>
+        <components ID="calendar" Visibility="visible" descriptorKey="w2:calendar" name="Calendar" prefix="w2" realtype="calendar"/>
+        <components ID="select" Visibility="visible" descriptorKey="xf:checkbox" name="Checkbox" prefix="xf" realtype="checkbox"/>
+        <components ID="floatingLayer" Visibility="visible" descriptorKey="w2:floatingLayer" name="FloatingLayer" prefix="w2" realtype="floatingLayer"/>
+        <components ID="gridView" Visibility="visible" descriptorKey="w2:gridView" name="GridView" prefix="w2" realtype="gridView"/>
+        <components ID="group" Visibility="visible" descriptorKey="xf:group" name="Group" prefix="xf" realtype="group"/>
+        <components ID="input" Visibility="visible" descriptorKey="xf:input" name="InputBox" prefix="xf" realtype="input"/>
+        <components ID="inputCalendar" Visibility="visible" descriptorKey="w2:inputCalendar" name="InputCalendar" prefix="w2" realtype="inputCalendar"/>
+        <components ID="pageList" Visibility="visible" descriptorKey="w2:pageList" name="PageList" prefix="w2" realtype="pageList"/>
+        <components ID="select1" Visibility="visible" descriptorKey="xf:radio" name="Radio" prefix="xf" realtype="radio"/>
+        <components ID="select1" Visibility="visible" descriptorKey="xf:selectbox" name="SelectBox" prefix="xf" realtype="selectbox"/>
+        <components ID="span" Visibility="visible" descriptorKey="w2:span" name="Span" prefix="w2" realtype="span"/>
+        <components ID="tabControl" Visibility="visible" descriptorKey="w2:tabControl" name="TabControl" prefix="w2" realtype="tabControl"/>
+        <components ID="table" Visibility="visible" descriptorKey=":table" name="TableLayout" prefix="" realtype="table"/>
+        <components ID="textarea" Visibility="visible" descriptorKey="xf:textarea" name="Textarea" prefix="xf" realtype="textarea"/>
+        <components ID="textbox" Visibility="visible" descriptorKey="w2:textbox" name="Textbox" prefix="w2" realtype="textbox"/>
+        <components ID="treeview" Visibility="visible" descriptorKey="w2:treeview" name="TreeView" prefix="w2" realtype="treeview"/>
+        <components ID="trigger" Visibility="visible" descriptorKey="xf:trigger" name="Trigger" prefix="xf" realtype="trigger"/>
+    </mypalette>
+</WebSquarePaletteConfiguration>
